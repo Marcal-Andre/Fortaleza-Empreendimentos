@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Estilo do container de imagens */
+        .image-container {
+            display: flex;
+            overflow-x: auto;
+            padding: 10px;
+        }
+
+        /* Estilo das imagens */
+        .image-container img {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Vídeo de apresentação -->
+    <div>
+        <h2>Vídeo de Apresentação</h2>
+        <video width="320" height="240" controls>
+            <source src="seu_video.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+    </div>
+
+    <!-- Barra de rolagem de imagens -->
+    <div class="image-container">
+        <img src="imagem1.jpg" alt="Imagem 1" width="200">
+        <img src="imagem2.jpg" alt="Imagem 2" width="200">
+        <img src="imagem3.jpg" alt="Imagem 3" width="200">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+
+</body>
+</html>
