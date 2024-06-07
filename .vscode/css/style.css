@@ -1,0 +1,36 @@
+*/* Para remover o sublinhado */
+a {
+    text-decoration: none;
+}
+
+/* Para alterar a cor */
+a {
+    color: black; /* Substitua 'black' pela cor desejada */
+}
+#navbar a {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Estilo dos links da barra de menu */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Altera a cor dos links ao passar o mouse */
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
